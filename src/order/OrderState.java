@@ -1,0 +1,5 @@
+package order;
+
+public enum OrderState {
+    NEW, IN_PROGRESS, OUT_FOR_DELIVERY, DELIVERED, FAULTY, RETURNED, OTHER, CANCELLED, DUPLICATE;
+}
